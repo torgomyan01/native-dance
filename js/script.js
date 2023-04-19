@@ -17,7 +17,7 @@ bassContent.addEventListener('click', function () {
         return;
     }
     const audio = new Audio();
-    audio.src = '../audio/2Pac-Dj Belite.mp3';
+    audio.src = 'audio/2Pac-Dj Belite.mp3';
 
     const context = new AudioContext();
     const src = context.createMediaElementSource(audio);
