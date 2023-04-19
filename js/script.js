@@ -38,8 +38,6 @@ bassContent.addEventListener('click', function () {
         const scale = dataArray[Math.floor(dataArray.length / 2)] / 100;
         const bass = Math.max.apply(Math, dataArray);
 
-        console.log(audio.currentTime)
-
         if (bass >= 250) {
             changeBg();
             right.style.transform = `rotate3d(0, 0, 4, ${scale * 6}deg)`;
